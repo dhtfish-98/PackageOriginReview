@@ -1,0 +1,68 @@
+{
+  "upstream": "lirantal/lockfile-lint",
+  "commit": "3554c3444653a6efe7eeb883a39d798f58f0c210",
+  "selected_runtime_review": "API parser/validators/errors/exports plus CLI config/managers/entry; no upstream execution",
+  "upstream_tests_dependencies": "OPEN - not fully audited",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "edc98c32f4729e6e1dbe109e28c8906242c32ff20e9d3ea98cbc503a1f2eb163"
+    },
+    {
+      "path": "packages/lockfile-lint/bin/lockfile-lint.js",
+      "sha256": "ee25908d0f99b5b79f2b6147841b47c1c4d792790cce583f0e6d748889a721e7"
+    },
+    {
+      "path": "packages/lockfile-lint/src/config.js",
+      "sha256": "3b9a112fe4b595273cd192dc420ec2366a3caadc721c2dbdb95393a30a0df8db"
+    },
+    {
+      "path": "packages/lockfile-lint/src/main.js",
+      "sha256": "a393884b86bf1d7823c98f34a0d33fb6ab043f32e7f5ad130c76d9db1244ae10"
+    },
+    {
+      "path": "packages/lockfile-lint/src/validators/index.js",
+      "sha256": "4d9dedc197589e204a44e5b3456ce50d590d4cd36ea93d27759464b25afe30ba"
+    },
+    {
+      "path": "packages/lockfile-lint-api/index.js",
+      "sha256": "068e14e90d021f722dd2fbef120514437645064041af7e2074336cdd1361c527"
+    },
+    {
+      "path": "packages/lockfile-lint-api/src/ParseLockfile.js",
+      "sha256": "9811f6f39428c87529b4ad40674de31086345da6a6b602f4632aad448358871f"
+    },
+    {
+      "path": "packages/lockfile-lint-api/src/common/ParsingError.js",
+      "sha256": "2dc1b5b09bc9f5707b7be5e5c49d79a710cfb7608c1c8ad41a9c2f71d0a432b7"
+    },
+    {
+      "path": "packages/lockfile-lint-api/src/common/constants.js",
+      "sha256": "f07a52f8a8be59045589f37d9555128c765d48c2f86cd296419c8b20dabda5d2"
+    },
+    {
+      "path": "packages/lockfile-lint-api/src/validators/ValidateHost.js",
+      "sha256": "c73766cabfc61d227d67dbd0f7dbc9dca880f32c64b923c9c4662397ded36335"
+    },
+    {
+      "path": "packages/lockfile-lint-api/src/validators/ValidateHttps.js",
+      "sha256": "fcce9900a3744e8e7474206808eee3b0c6f08c510d2d72cdea005e049e2826dc"
+    },
+    {
+      "path": "packages/lockfile-lint-api/src/validators/ValidateIntegrity.js",
+      "sha256": "28a9efb27314d48c1d35f6c51d7e004a551e0ac4b7ce64dc3942c7c928f7d34b"
+    },
+    {
+      "path": "packages/lockfile-lint-api/src/validators/ValidatePackageNames.js",
+      "sha256": "f71e8d79ff6a24442bef0afb7612870d0ce2997ce6b8830f36262d5b06446296"
+    },
+    {
+      "path": "packages/lockfile-lint-api/src/validators/ValidateScheme.js",
+      "sha256": "4004de69cbd288619a4842556f208c10c313b35ae03e5f07439f7305cc954328"
+    },
+    {
+      "path": "packages/lockfile-lint-api/src/validators/ValidateUrl.js",
+      "sha256": "b4d723635963ac17e78a7fe1570f1de13448b8c7e9fdae11029289a0a0006517"
+    }
+  ]
+}
