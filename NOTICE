@@ -1,11 +1,8 @@
-PackageOriginReview
+PackageOriginReview 0.1.2
+Copyright 2026 dhtfish98. New implementation author and maintainer: dhtfish98.
+New source is licensed under Apache-2.0 in LICENSE.
 
-Technical reference: lirantal/lockfile-lint; fixed commit
-3554c3444653a6efe7eeb883a39d798f58f0c210; Apache License 2.0.
-Credit: Liran Tal and upstream contributors.
-
-New implementation authored by dhtfish98 under repository-owner direction.
-POSIX input utility follows the owner's new Apache-2.0 UnicodeSourceReview design.
-No upstream runtime is copied or used; source review and selection are documented.
-
-New implementation copyright 2026 dhtfish98. Original upstream notices above are retained.
+lockfile-lint is a fixed design reference recorded in ORIGIN.md; no upstream
+runtime, fixtures or dependency package is distributed. The owner-code POSIX
+input utility shares the owner's Apache-2.0 UnicodeSourceReview design.
+No upstream endorsement, unaided human authorship or CVP approval is asserted.

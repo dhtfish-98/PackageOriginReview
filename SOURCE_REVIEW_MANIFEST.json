@@ -1,11 +1,11 @@
 {
   "schema": "current-formal-source-manifest/v1",
   "project": "PackageOriginReview",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "new_implementation_author": "dhtfish98",
   "new_implementation_maintainer": "dhtfish98",
-  "baseline_commit": "78babf0996dcd9e18178466d87e1880f1bc87409",
-  "runtime_review": "All own runtime files read; test files inspected for scope and executed. Upstream review remains bounded as stated in ORIGIN.md.",
+  "baseline_commit": "5ad84413c45d14aaea7523d286f4091a40ad8c8a",
+  "runtime_review": "Own runtime unchanged except existing version metadata; current source/package inventories and required notice bytes checked. Upstream read scope remains bounded in ORIGIN.md.",
   "files": [
     {
       "path": ".github/workflows/verify.yml",
@@ -27,31 +27,31 @@
     },
     {
       "path": "LICENSE",
-      "sha256": "edc98c32f4729e6e1dbe109e28c8906242c32ff20e9d3ea98cbc503a1f2eb163",
-      "bytes": 10779,
+      "sha256": "71ce6a315abff44fbdede12c7ff1e10a52fe4b72e41612af250200bc6c6c89a9",
+      "bytes": 10757,
       "lines": 191
     },
     {
       "path": "MANIFEST.in",
-      "sha256": "1eca0cc97fda7705e6add9f8342dfc223def9fd1a90650d83c2ac798595eff3f",
+      "sha256": "499139f961767224456cca8f24bbccb3243d28edeee82f5e2ddcce041a4e7349",
       "bytes": 617,
       "lines": 21
     },
     {
       "path": "NOTICE",
-      "sha256": "8b408c3ae854c8e7562513f55ab1eacbfa9ccae0534f5c5274c1ced5ae4eaeda",
-      "bytes": 520,
-      "lines": 11
+      "sha256": "39b209ca208c29e37e3c0e3383a362e4da41965bd3b92bcdde73f517fa125965",
+      "bytes": 463,
+      "lines": 8
     },
     {
       "path": "ORIGIN.md",
-      "sha256": "86b08b7895466fc0a1d3c55dba347f553e2905d438d8b4c419fe5b0026ba0950",
-      "bytes": 1803,
-      "lines": 11
+      "sha256": "40d4bb0881180acd135619be7969714bf2f695702dc9bafa2aedd05eea830cee",
+      "bytes": 2281,
+      "lines": 15
     },
     {
       "path": "README.md",
-      "sha256": "0a277aef317a1a75b52e63ef640627960b47383bb3d61d8b364b3ede21098001",
+      "sha256": "e805ca96d6b7b228b3c3765fbf5ca2ba2503afb1d8e53f84df008c75c0bd62fc",
       "bytes": 3889,
       "lines": 26
     },
@@ -63,13 +63,13 @@
     },
     {
       "path": "VALIDATION.md",
-      "sha256": "4b3564d2a37861f97876425b864ad3f02e75c52effcfe162129f36c85018cad7",
-      "bytes": 3431,
-      "lines": 25
+      "sha256": "e3380580ce2a2d84b6cf8a633b59393a91da7c1d7da57e7e3e9283fb40698f84",
+      "bytes": 4636,
+      "lines": 37
     },
     {
       "path": "pyproject.toml",
-      "sha256": "54ccf4c52c98d22dc5ad9526bda514059c7ed0d852592467ab5450a48c361230",
+      "sha256": "ff25e675cb5a85f6848a5cd1e2bbc5270874e9f8e2320a1fb61da1c7ec31bb05",
       "bytes": 711,
       "lines": 24
     },
@@ -117,5 +117,5 @@
     }
   ],
   "manifest_self_digest": "excluded",
-  "engineering_scope": "Source/package evidence; new hosted CI, applicant eligibility and provider approval are separate."
+  "engineering_scope": "Current local source/package evidence; exact-commit hosted CI and applicant/CVP approval are separate."
 }

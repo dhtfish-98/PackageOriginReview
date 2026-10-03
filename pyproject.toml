@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 authors = [{name = "dhtfish98"}]
 maintainers = [{name = "dhtfish98"}]
 name = "package-origin-review"
-version = "0.1.1"
+version = "0.1.2"
 description = "Bounded offline npm lockfile declared-origin policy review"
 readme = "README.md"
 requires-python = ">=3.11"

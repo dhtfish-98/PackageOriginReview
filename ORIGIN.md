@@ -1,6 +1,6 @@
 # Origin and contribution
 
-Technical reference: [lirantal/lockfile-lint](https://github.com/lirantal/lockfile-lint/tree/3554c3444653a6efe7eeb883a39d798f58f0c210), fixed commit `3554c3444653a6efe7eeb883a39d798f58f0c210`, Apache-2.0. Credit belongs to Liran Tal and the upstream contributors; their license is retained unchanged.
+Technical reference: [lirantal/lockfile-lint](https://github.com/lirantal/lockfile-lint/tree/3554c3444653a6efe7eeb883a39d798f58f0c210), fixed commit `3554c3444653a6efe7eeb883a39d798f58f0c210`, Apache-2.0. This is a design reference only; no upstream runtime, fixture, document excerpt or dependency package is distributed. The new project independently chooses Apache-2.0.
 
 The selected API's parser, host/HTTPS/scheme/URL/package-name validators, error/constants and exports, and CLI's configuration, manager, main and entry point were reviewed. Integrity validation was inspected to explicitly remove that mechanism from this project. SOURCE_AUDIT.json records files and fixed hashes; upstream tests, bundled fixtures and external dependency code were not fully audited or executed.
 
@@ -9,3 +9,7 @@ This Python implementation was newly written under repository-owner direction at
 This fully implements the declared-origin project scope, not all upstream npm/yarn/config/glob/integrity behavior. Missing declarations and parser errors cannot silently become successes. No upstream authorship, CVE discovery, independent human authorship of generated output, or CVP approval is claimed.
 
 New implementation author: dhtfish98. This attribution applies to the new project implementation; original sources, licenses and third-party notices retain their authors. Automated checks do not establish independent human review or CVP eligibility.
+
+## Current distribution and reference boundary
+
+Actual packaged material is the new Python implementation and synthetic cases. lockfile-lint is a design reference only; no original source or fixture is bundled. New implementation author and maintainer: dhtfish98. Source identities and bounded research facts above remain provenance, not an assertion that those authors wrote or endorsed the new runtime.

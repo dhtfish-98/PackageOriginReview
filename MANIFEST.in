@@ -17,5 +17,5 @@ include src/package_origin_review/__main__.py
 include src/package_origin_review/cli.py
 include src/package_origin_review/input.py
 include src/package_origin_review/review.py
-include tests/test_review.py
 include tests/test_reader_capabilities.py
+include tests/test_review.py
