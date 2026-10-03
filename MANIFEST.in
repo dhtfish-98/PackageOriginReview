@@ -1,0 +1,21 @@
+
+
+# Current formal source inventory, including provenance and tests.
+include .github/workflows/verify.yml
+include .gitignore
+include DEFENSIVE_SCOPE.md
+include LICENSE
+include NOTICE
+include ORIGIN.md
+include README.md
+include SOURCE_AUDIT.json
+include SOURCE_REVIEW_MANIFEST.json
+include VALIDATION.md
+include pyproject.toml
+include src/package_origin_review/__init__.py
+include src/package_origin_review/__main__.py
+include src/package_origin_review/cli.py
+include src/package_origin_review/input.py
+include src/package_origin_review/review.py
+include tests/test_review.py
+include tests/test_reader_capabilities.py

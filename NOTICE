@@ -4,6 +4,8 @@ Technical reference: lirantal/lockfile-lint; fixed commit
 3554c3444653a6efe7eeb883a39d798f58f0c210; Apache License 2.0.
 Credit: Liran Tal and upstream contributors.
 
-New implementation assisted by Codex under repository-owner direction.
+New implementation authored by dhtfish98 under repository-owner direction.
 POSIX input utility follows the owner's new Apache-2.0 UnicodeSourceReview design.
 No upstream runtime is copied or used; source review and selection are documented.
+
+New implementation copyright 2026 dhtfish98. Original upstream notices above are retained.

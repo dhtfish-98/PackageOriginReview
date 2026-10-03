@@ -1,0 +1,121 @@
+{
+  "schema": "current-formal-source-manifest/v1",
+  "project": "PackageOriginReview",
+  "version": "0.1.1",
+  "new_implementation_author": "dhtfish98",
+  "new_implementation_maintainer": "dhtfish98",
+  "baseline_commit": "78babf0996dcd9e18178466d87e1880f1bc87409",
+  "runtime_review": "All own runtime files read; test files inspected for scope and executed. Upstream review remains bounded as stated in ORIGIN.md.",
+  "files": [
+    {
+      "path": ".github/workflows/verify.yml",
+      "sha256": "7188e1eccc61cafc21104a4219a84c62421ca3901d123c6b5b7d0d4b83276007",
+      "bytes": 797,
+      "lines": 23
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "65abcab92ed1a7295e82bc3c1c6bb248d8427301d97555e2dab9238571b8152d",
+      "bytes": 90,
+      "lines": 9
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "sha256": "94078fa4d6567e54d4c6ff7c04efdad73a86687bc45add3386d30e01fdda8585",
+      "bytes": 999,
+      "lines": 7
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "edc98c32f4729e6e1dbe109e28c8906242c32ff20e9d3ea98cbc503a1f2eb163",
+      "bytes": 10779,
+      "lines": 191
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha256": "1eca0cc97fda7705e6add9f8342dfc223def9fd1a90650d83c2ac798595eff3f",
+      "bytes": 617,
+      "lines": 21
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "8b408c3ae854c8e7562513f55ab1eacbfa9ccae0534f5c5274c1ced5ae4eaeda",
+      "bytes": 520,
+      "lines": 11
+    },
+    {
+      "path": "ORIGIN.md",
+      "sha256": "86b08b7895466fc0a1d3c55dba347f553e2905d438d8b4c419fe5b0026ba0950",
+      "bytes": 1803,
+      "lines": 11
+    },
+    {
+      "path": "README.md",
+      "sha256": "0a277aef317a1a75b52e63ef640627960b47383bb3d61d8b364b3ede21098001",
+      "bytes": 3889,
+      "lines": 26
+    },
+    {
+      "path": "SOURCE_AUDIT.json",
+      "sha256": "e3276461547e4f7ded95a674e7c5d182f6d783f3472db778a5002bb6fe4538cd",
+      "bytes": 2966,
+      "lines": 69
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "4b3564d2a37861f97876425b864ad3f02e75c52effcfe162129f36c85018cad7",
+      "bytes": 3431,
+      "lines": 25
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "54ccf4c52c98d22dc5ad9526bda514059c7ed0d852592467ab5450a48c361230",
+      "bytes": 711,
+      "lines": 24
+    },
+    {
+      "path": "src/package_origin_review/__init__.py",
+      "sha256": "c9e78e01c8c625ec01ab6a68d7cbf4b06371ff76205c622a020e94316742ca71",
+      "bytes": 261,
+      "lines": 6
+    },
+    {
+      "path": "src/package_origin_review/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "bytes": 48,
+      "lines": 3
+    },
+    {
+      "path": "src/package_origin_review/cli.py",
+      "sha256": "44f253016fcc1eac508511326a519dd793f00b3476a6a05c3c93fc5dff500087",
+      "bytes": 1471,
+      "lines": 47
+    },
+    {
+      "path": "src/package_origin_review/input.py",
+      "sha256": "25b494a6acf422131051ef69fc1c0a27c7e52d1ecc891f6c1694493db615938f",
+      "bytes": 3062,
+      "lines": 77
+    },
+    {
+      "path": "src/package_origin_review/review.py",
+      "sha256": "baa6bb6257ef0c9f33552ad69427c645861d2549c6f6ec6e995cd39442020f91",
+      "bytes": 10763,
+      "lines": 292
+    },
+    {
+      "path": "tests/test_reader_capabilities.py",
+      "sha256": "1a1d85a62bef99c8ebcbc18042610239f6f0d14363d214a75b9e7bcc30987867",
+      "bytes": 3546,
+      "lines": 74
+    },
+    {
+      "path": "tests/test_review.py",
+      "sha256": "1d53048b4570782c253b97469ffe02f99b3ee1621ccec76f6bde5340d16f393a",
+      "bytes": 17082,
+      "lines": 483
+    }
+  ],
+  "manifest_self_digest": "excluded",
+  "engineering_scope": "Source/package evidence; new hosted CI, applicant eligibility and provider approval are separate."
+}

@@ -1,5 +1,8 @@
 # PackageOriginReview
 
+
+New implementation author: **dhtfish98**. Current project version: **0.1.1**.
+
 Offline review of **declared** npm package-lock v2/v3 registry sources. It checks exact allowed hosts, HTTPS, default TLS port, absence of userinfo/query/fragment, decoded path ambiguity and package-name-to-tarball-route binding. It never downloads, installs or executes a package or configuration.
 
 ```sh
@@ -19,3 +22,5 @@ JSON must be strict UTF-8 with no duplicate object keys or nonfinite constants. 
 Supported package names are at most 214 characters, with each unscoped or scope/name component starting with a lowercase ASCII letter or digit and continuing with lowercase letters, digits, dots, underscores or hyphens. Legacy names outside that conservative grammar remain OPEN. Numeric final host labels are not accepted in policy, avoiding IPv4-style address interpretation. These are declared local policy choices, not a complete reimplementation of npm's package-name grammar.
 
 See ORIGIN.md, DEFENSIVE_SCOPE.md, SOURCE_AUDIT.json and VALIDATION.md for the selected upstream scope, contribution and measured checks.
+
+Local-file capability boundary: required OS flags must be exact positive integers. Descriptor walking also requires declared `os.open` directory-relative support. Missing, null, zero, boolean or otherwise invalid required capabilities return a controlled OPEN result before file access. Native Windows local-file reading is outside this POSIX profile.

@@ -12,12 +12,13 @@ class InputError(ValueError):
 def read_regular_file(path, byte_limit):
     if type(byte_limit) is not int or not 1 <= byte_limit <= 128 * 1024 * 1024:
         raise InputError("invalid byte budget")
-    required = ("O_NOFOLLOW", "O_DIRECTORY", "O_NONBLOCK")
-    if (
-        os.name != "posix"
-        or not all(hasattr(os, flag) for flag in required)
-        or os.open not in os.supports_dir_fd
-    ):
+    required = ('O_NOFOLLOW', 'O_DIRECTORY', 'O_NONBLOCK')
+    directory_capabilities = getattr(os, "supports_dir_fd", None)
+    directory_relative_open = (
+        isinstance(directory_capabilities, (set, frozenset))
+        and os.open in directory_capabilities
+    )
+    if os.name != "posix" or any(type(getattr(os, flag, None)) is not int or getattr(os, flag) <= 0 for flag in required) or not directory_relative_open:
         raise InputError("this reader requires POSIX no-follow descriptors")
     raw_path = os.fspath(path)
     if not isinstance(raw_path, str):

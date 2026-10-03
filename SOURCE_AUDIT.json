@@ -64,5 +64,6 @@
       "path": "packages/lockfile-lint-api/src/validators/ValidateUrl.js",
       "sha256": "b4d723635963ac17e78a7fe1570f1de13448b8c7e9fdae11029289a0a0006517"
     }
-  ]
+  ],
+  "delivery_snapshot_note": "Local implementation/package observations in this record belong to the earlier delivery; current file digests and version are in SOURCE_REVIEW_MANIFEST.json. Upstream identities, hashes and review scope are retained."
 }
