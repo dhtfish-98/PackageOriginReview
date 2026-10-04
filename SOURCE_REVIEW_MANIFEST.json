@@ -11,30 +11,24 @@
       "path": ".github/workflows/verify.yml",
       "sha256": "f6f9fb0952f2ae09eef643886a36b586a0f1dd34e4b4b92894cb8afcf16c8771",
       "bytes": 2118,
-      "lines": 23
+      "lines": 47
     },
     {
       "path": ".gitignore",
       "sha256": "d22abddd4e061876e8ac17e7f5cc90bf0c3a0e29e7bfccaa2cfac591ccb3320c",
       "bytes": 204,
-      "lines": 9
+      "lines": 16
     },
     {
       "path": "MANIFEST.in",
-      "sha256": "45a549bb47f6fecb55e6f612843c1b5e4372be2ff1b5cbeacf734693d26cf305",
-      "bytes": 1178,
-      "lines": 21
-    },
-    {
-      "path": "SOURCE_AUDIT.json",
-      "sha256": "e3276461547e4f7ded95a674e7c5d182f6d783f3472db778a5002bb6fe4538cd",
-      "bytes": 2966,
-      "lines": 69
+      "sha256": "d46d8951c551d089aedc87289437cdc8eaa33c8d2cb2a1adbde1a3f285ca95c1",
+      "bytes": 1191,
+      "lines": 36
     },
     {
       "path": "pyproject.toml",
-      "sha256": "cc3f986cd33071f03f5785c29c40b536c5afaf791515a282e3cb009f1392cf90",
-      "bytes": 789,
+      "sha256": "2b59339290de5abe8bc4122a63ce8be5ada187da2697f336ecd2dd02ca750cac",
+      "bytes": 802,
       "lines": 24
     },
     {
@@ -85,8 +79,8 @@
       "path": "构建.py"
     },
     {
-      "sha256": "98f154cb61930ed6dcf5503ea2126b7b6c327513862232b0f56e83cbaa7da8c8",
-      "bytes": 1274,
+      "sha256": "a560c74b34b5f98f731923e0ce012d0a14f5788404cf3520a91c6580334f1f2d",
+      "bytes": 1459,
       "path": "构建配置.json"
     },
     {
@@ -117,7 +111,13 @@
       "path": "项目文档/README.md",
       "sha256": "8c76e0fc2c5caae3cf39ce1f558af6d7494bd5c1967eea14273375c4d1b741b5",
       "bytes": 4244,
-      "lines": 26
+      "lines": 28
+    },
+    {
+      "path": "项目文档/SOURCE_AUDIT.json",
+      "sha256": "e3276461547e4f7ded95a674e7c5d182f6d783f3472db778a5002bb6fe4538cd",
+      "bytes": 2966,
+      "lines": 69
     },
     {
       "path": "项目文档/VALIDATION.md",

@@ -8,7 +8,7 @@ include 项目文档/LICENSE
 include 项目文档/NOTICE
 include 项目文档/ORIGIN.md
 include 项目文档/README.md
-include SOURCE_AUDIT.json
+include 项目文档/SOURCE_AUDIT.json
 include SOURCE_REVIEW_MANIFEST.json
 include 项目文档/VALIDATION.md
 include pyproject.toml

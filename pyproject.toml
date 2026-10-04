@@ -21,4 +21,4 @@ package-origin-review = "package_origin_review.cli:main"
 where = ["src"]
 
 [tool.setuptools.data-files]
-"share/doc/PackageOriginReview" = ["项目文档/ORIGIN.md", "项目文档/DEFENSIVE_SCOPE.md", "项目文档/VALIDATION.md", "SOURCE_AUDIT.json", "SOURCE_REVIEW_MANIFEST.json"]
+"share/doc/PackageOriginReview" = ["项目文档/ORIGIN.md", "项目文档/DEFENSIVE_SCOPE.md", "项目文档/VALIDATION.md", "项目文档/SOURCE_AUDIT.json", "SOURCE_REVIEW_MANIFEST.json"]
