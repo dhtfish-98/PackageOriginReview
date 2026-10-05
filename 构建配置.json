@@ -18,7 +18,7 @@
     {
       "original": "NOTICE",
       "stored": "项目文档/NOTICE",
-      "sha256": "39b209ca208c29e37e3c0e3383a362e4da41965bd3b92bcdde73f517fa125965"
+      "sha256": "698e27f5a14c0653ac4b97895ff85a94a80a2eb47c24c95ff67cc229ee015b2d"
     },
     {
       "original": "ORIGIN.md",
@@ -28,7 +28,7 @@
     {
       "original": "README.md",
       "stored": "项目文档/README.md",
-      "sha256": "a907e125fe348756c6b8562fd32b39abc4383f74899cdcb5011ab19a4d92f5e6"
+      "sha256": "f01efedb69685cb08f2515f164f49a6ab2c512b7f8e742ccf560f5d1c203cc3f"
     },
     {
       "original": "SOURCE_AUDIT.json",
@@ -38,7 +38,7 @@
     {
       "original": "VALIDATION.md",
       "stored": "项目文档/VALIDATION.md",
-      "sha256": "74f72da230ff248dcabe4077198f3568f2d116eaa9dc0a7099340fd9d5b2360b"
+      "sha256": "6c4abcac7a7ef27af432fde6fc59f7181667e0ac74f7fcf139d6555fbea66b00"
     }
   ],
   "platform_entries": []
