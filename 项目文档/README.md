@@ -3,7 +3,7 @@
 # PackageOriginReview
 
 
-New implementation author: **dhtfish98**. Current project version: **0.1.2**.
+New implementation author: **dhtfish98**. Current project version: **0.1.3**.
 
 Offline review of **declared** npm package-lock v2/v3 registry sources. It checks exact allowed hosts, HTTPS, default TLS port, absence of userinfo/query/fragment, decoded path ambiguity and package-name-to-tarball-route binding. It never downloads, installs or executes a package or configuration.
 

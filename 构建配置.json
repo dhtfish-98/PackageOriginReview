@@ -28,7 +28,7 @@
     {
       "original": "README.md",
       "stored": "项目文档/README.md",
-      "sha256": "8c76e0fc2c5caae3cf39ce1f558af6d7494bd5c1967eea14273375c4d1b741b5"
+      "sha256": "a907e125fe348756c6b8562fd32b39abc4383f74899cdcb5011ab19a4d92f5e6"
     },
     {
       "original": "SOURCE_AUDIT.json",
@@ -38,7 +38,7 @@
     {
       "original": "VALIDATION.md",
       "stored": "项目文档/VALIDATION.md",
-      "sha256": "e3380580ce2a2d84b6cf8a633b59393a91da7c1d7da57e7e3e9283fb40698f84"
+      "sha256": "74f72da230ff248dcabe4077198f3568f2d116eaa9dc0a7099340fd9d5b2360b"
     }
   ],
   "platform_entries": []
